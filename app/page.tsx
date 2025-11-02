@@ -9,8 +9,14 @@ export default function Home() {
         <Image
           src="https://ac.goit.global/fullstack/react/notehub-og-meta.jpg"
           alt="Notehub"
-          width={600}
+          width={900}
           height={600}
+          style={{
+            width: "100%",
+            height: "auto",
+            margin: "0 auto 20px",
+            display: "block",
+          }}
         />
         <p className={css.description}>
           NoteHub is a simple and efficient application designed for managing
